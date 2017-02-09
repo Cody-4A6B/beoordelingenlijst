@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html;
+                charset=UTF-8">
+    <title> </title>
+    <style>
+        body,
+        html {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .standaardDiv {
+            border: solid 2px lightgrey;
+            padding: 10px;
+            height: 60px;
+        }
+        
+        .input {
+            float: left;
+            width: 20%;
+            min-width: 100px;
+        }
+        
+        .knop {
+            float: left;
+        }
+
+    </style>
+    <script src="beoordelingenlijst.js"></script>
+</head>
+
+<body>
+    <div class="standaardDiv" id="div1">
+        <input class="input" id="input1" type="number" placeholder="Toets Cijfer">
+        <button class="knop" id="knop1" onclick="rekenCijfer()">Toevoegen</button>
+        <br>
+        <br>
+        <input class="input" id="input2" type="number" placeholder="Toets Cijfer">
+        <button class="knop" id="knop2" onclick="myFunction1()">Toevoegen</button>
+
+    </div>
+    <div class="standaardDiv" id="resultaat"></div>
+
+</body>
+
+</html>
